@@ -1,0 +1,51 @@
+extends base.pug
+
+block scripts
+    script  
+        include ../dance.js
+block style 
+    style 
+        include ../static/style1.css 
+
+block content 
+    section#introSection 
+        div Welcome to classical dance Accademy
+        div.small Eat Sleep Dance Repeat
+
+    section#mission 
+        h1 Our Mission
+        div.card
+            h2 Dance perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+                
+                div.card-content
+                    p Dancers don't need wings to fly.
+        div.card
+            h2 Dance the way you like.
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png")
+                
+                div.card-content
+                    p There are shortcuts to happiness and dancing is one of them.
+        div.card
+            h2 Expert teaching dance.
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+                
+                div.card-content
+                    p dont loose the chance to be awesome 
+            
+    section#sponsorssSection
+        | Ours Sponcers 
+        div#sponcer
+            img(src="/static/img/logs1.png" ,alt="sponcers imsge" ,class="spimage")
+            img(src="/static/img/logs2.png" ,alt="sponcers imsge" ,class="spimage")
+            img(src="/static/img/logs3.png" ,alt="sponcers imsge" ,class="spimage")
+            img(src="/static/img/logs4.png" ,alt="sponcers imsge" ,class="spimage")
+    
+
+

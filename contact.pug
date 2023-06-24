@@ -1,0 +1,20 @@
+extends base.pug
+
+block scripts
+    script(src='../dance.js')
+
+block style 
+    style 
+        include ../static/style1.css 
+        include ../static/stylecontact.css 
+
+block content
+    div.container
+        h1 Contact Us. 
+        form(action ="/contact",method= "post" ,class="myform")
+            input(type="text", class="myinput",name="name",placeholder="Enter your Name")
+            input(type="email", class="myinput",name="email",placeholder="Enter your E-mail")
+            input(type="phone", class="myinput",name="phone",placeholder="Enter your phone no")
+            textarea(type="textarea", class="myinput",cols="30",rows="10",name="name",placeholder="Enter your Query")
+            button(class="btn")
+                |Submit

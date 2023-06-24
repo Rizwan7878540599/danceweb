@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Chokokutai&family=Delicious+Handrawn&family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Chokokutai&family=Delicious+Handrawn&family=Fasthand&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Chokokutai&family=Delicious+Handrawn&family=Fasthand&family=Lobster&family=Pacifico&display=swap');
+/* @import url('https://fonts.google.com/specimen/Lobster?query=lobster'); */
+
+#navbar ul{
+   display: flex; 
+   flex-direction: row;
+   align-items: center;
+   background-color: gray;
+   padding: 5px;
+   border-radius: 2px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar li{
+    list-style: none;
+    
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 7px 12px;
+    color: white;
+    font-weight: bold;
+    
+}
+#navbar li  :hover{
+color: black;
+}
+#introSection{
+    background: center/cover no-repeat url('/static/bg.jpg');
+    color: #1a8484;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: red;
+    font-weight: bold;
+    font-size: 34px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 210px;
+    display: inline-block;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+  margin-top: 60px;
+  box-shadow: 2px 2px rgb(33, 123, 175);
+}
+.card h2{
+    font-family: 'Lobster';
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0 12px;
+}
+.card-content p{
+font-weight: lighter;
+}
+#logo{
+
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    filter: invert(1);
+    width: 30px;
+    height: 30px;
+
+}
+#cda{
+    display: flex;
+    color: white;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 70px;
+    /* margin: auto; */
+}
+#introSection div.small{
+    font-size: 23px;
+    color: green;
+    
+}
+#sponsorssSection{
+    height: 300px;
+    background-color: #c9c9ab;
+    text-align: center;
+    padding: 12px;
+    font-family: 'Pacifico';
+    font-weight: bold;
+}
+#footer{
+    color: white;
+    height:     50px;
+    display: flex;
+    background-color: rgb(49, 44, 44);
+    justify-content: center;
+    align-items: center;
+}
+#mission{
+    font-family: 'Pacifico';
+    text-align: center;
+    height: 450px;
+    padding: 12px;
+    background-color: #549c7b52;
+    box-shadow: -2px -2px rgb(22, 212, 187);
+}
+#sponcer{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spimage{
+    height: 80%;
+    margin: 26px;
+    padding: 13px;
+    margin-top: 50px
+}

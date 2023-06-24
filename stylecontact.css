@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Chokokutai&family=Delicious+Handrawn&family=Fasthand&family=Lobster&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Chokokutai&family=Delicious+Handrawn&family=Fasthand&family=Lobster&display=swap');
+
+h1{
+    text-align: center;
+    color: gold;
+    font-family: 'Lobster';
+
+} 
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+.myinput{
+
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    outline: none;
+}
+.btn{
+    padding: 9px 4px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: silver;
+    width: 90px;
+    background-color: gray;
+    height: 51px;
+    font-weight: bold;
+    font-family: 'Pacifico';
+}
+.container{
+    min-height: 100vh;
+    /* background-color: #87b3aaed; */
+    background: center/cover no-repeat url('/static/bg.jpg');
+    padding-top: 50px;
+}
